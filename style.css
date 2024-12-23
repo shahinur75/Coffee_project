@@ -3,10 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.hero{
+:root{
+    --primary-color:#3B141C;
+    --secondary-color: #f3961c;
+    --site-max-width: full var(--site-max-width);
     background-color: #3B141C;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.hero{
     height: calc(100vh);
+    width: 1140px;
+    margin: 0 auto;
 }
 .parent-container .container{
     padding-top: 100px;
