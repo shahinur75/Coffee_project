@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: #3B141C;
+    height: calc(100vh);
+}
+.parent-container .container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.parent-container .container .text{
+    max-width: 55%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #f3961c;
+}
+h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: white;
+
+}
+.parent-container .container .text .button{
+    display: flex;
+    gap: 12px;
+}
+.parent-container .container .text .button .btn{
+    padding: 8px 28px;
+	border: 3px solid transparent;
+	border-radius: 50px;
+	cursor: pointer;
+	outline: none;
+	font-size: 18px;
+}
+.container .image{
+    max-width: 45%;
+}
+.container .image img{
+    width: 100%;
+}
